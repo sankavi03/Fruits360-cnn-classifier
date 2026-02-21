@@ -1,13 +1,11 @@
-# Fruits360-cnn-classifier
-# 🍎 Fruits-360 Image Classification  
+# Fruits-360 Image Classification  
 **Mini Project – From Pixel to Intelligence: Image Processing and Machine Learning**
 
-## 📌 Project Overview
+## Project Overview
 This project focuses on classifying fruit images using image processing techniques and Convolutional Neural Networks (CNN). The model is trained on the Fruits‑360 dataset and demonstrates how raw pixel data can be transformed into intelligent predictions.
 
----
 
-## 📂 Dataset
+## Dataset
 **Fruits‑360 Dataset (100×100 images)**  
 - Contains thousands of fruit and vegetable images  
 - Clean background with consistent lighting  
@@ -17,9 +15,7 @@ This project focuses on classifying fruit images using image processing techniqu
 Dataset Source:  
 https://github.com/fruits-360/fruits-360-100x100  
 
----
-
-## ⚙️ Methodology
+## Methodology
 The project follows these steps:
 
 1. **Data Acquisition** – Load Fruits‑360 dataset  
@@ -30,9 +26,8 @@ The project follows these steps:
 6. **Evaluation** – Accuracy and loss analysis  
 7. **Prediction** – Test on unseen fruit images  
 
----
 
-## 🧠 CNN Architecture
+## CNN Architecture
 - Input Layer (100×100×3 RGB Image)  
 - Convolution Layer (32 filters, ReLU)  
 - Max Pooling  
@@ -42,17 +37,13 @@ The project follows these steps:
 - Fully Connected Dense Layer (128 neurons, ReLU)  
 - Output Layer (Softmax – Multi-class classification)  
 
----
-
-## 📊 Results
+## Results
 - The CNN model successfully classified fruit images from the dataset.  
-- Training Accuracy: **~XX%** *(replace with your result)*  
+- Training Accuracy: **~97.5%**  
 - Loss and accuracy graphs included in the report.  
 - Model tested successfully on unseen images.  
 
----
-
-## 🛠 Tools & Technologies
+## Tools & Technologies
 - Python  
 - OpenCV  
 - TensorFlow / Keras  
@@ -60,30 +51,21 @@ The project follows these steps:
 - Google Colab  
 - GitHub  
 
----
-
-## 💾 Model
+## Model
 Trained model saved in Keras format:  
 `fruit_classifier.keras`
 
----
-
-## 👩‍💻 Authors
+## Authors
 - Sanmati P  
-- Member 2 Name  
-- Member 3 Name  
+- Sankavi S  
+- Sujetha R  
 
----
-
-## 📖 Conclusion
+## Conclusion
 This project demonstrates how image processing and deep learning can be combined to classify objects from raw pixel data. The CNN model achieved good accuracy and shows the effectiveness of deep learning in image recognition tasks.
 
----
-
-## 🔮 Future Improvements
+## Future Improvements
 - Increase dataset size for better accuracy  
 - Use advanced architectures (ResNet, MobileNet)  
 - Real‑time fruit detection using webcam  
 - Hyperparameter tuning for performance improvement  
 
----
