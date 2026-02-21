@@ -27,6 +27,9 @@ The project follows these steps:
 7. **Prediction** – Test on unseen fruit images  
 
 
+<img width="1682" height="898" alt="image" src="https://github.com/user-attachments/assets/09f99005-c72c-4ca7-b094-52583ae2e6bd" />
+
+
 ## CNN Architecture
 - Input Layer (100×100×3 RGB Image)  
 - Convolution Layer (32 filters, ReLU)  
